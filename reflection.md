@@ -8,13 +8,22 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+1. hints didnt work
+2. new game didnt work
+3. submit takes 2 presses
+
 ---
 
 ## 2. How did you use AI as a teammate?
 
-- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+- Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)? Cursor
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+  hint direction is reversed
+  submission is converting secret into string
+  history and score isnt cleared after reset game
+  attempt counting is off by one
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+  dont think one was wrong
 
 ---
 
