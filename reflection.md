@@ -30,15 +30,19 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+  manual testing and checked code for logic
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+  pytest showed tests passed
 - Did AI help you design or understand any tests? How?
+  AI generated the tests for me
 
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  Streamlits recreates things when you interact with a button or input. To prevent this you use a hashmap to store values so it survives reruns.
 
 ---
 
@@ -46,5 +50,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+    using ask mode first to see what the underlying issue is then switching to agent mode to actually execute the plan
 - What is one thing you would do differently next time you work with AI on a coding task?
+  I should ask it to generate tests first
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  I think I should always ask it to find the underlying problem instead of just fixing it
